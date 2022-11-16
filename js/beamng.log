@@ -1,0 +1,124 @@
+-- Log started - v 0.13.0.0.6437 - x64 - build 6437 - 11/6/2022 -- 22:34:22 -----
+-- buildbot build 6437 on winbuildbot_r720 - 13/07/2018 - 15:04:26 
+-- Log Format: Time since startup | Message level: D(ebug), I(nfo), W(arning), E(rror), A(lways) | Message
+  1.35504|I|StandardMainLoop::init|Virtual Filesystem: user path: C:/Users/ez1016/Documents/BeamNG.drive/
+  1.35514|D|StandardMainLoop::init| - user mods path: C:/Users/ez1016/Documents/BeamNG.drive/mods/
+  1.35518|D|StandardMainLoop::init| - game mods path: C:/Users/ez1016/Downloads/BeamNG.drive/content/
+  1.35538|I|Processor::init|       Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz ~2.49 GHz [HT,] 1 physical, 2 cores, 4 logical
+  1.35541|D|main|H2 D52552C3E153BC000D4DDD12B3B48739432D
+  1.36379|D|ModuleManager::initializeSystem|initializing 68 modules (only displaying anything above 0.100000 s)...
+  1.37079|I|SFXFMODProvider::init|SFXFMODProvider - FMOD API version: 1.9.14
+  1.46244|D|SteamIntegration::init|Could not initialize Steam functions
+  1.60981|D|GELua.gamestate|see if ui is loaded
+  1.63981|D|ModuleManager::initializeSystem| - GameEngineLua in 0.177319 seconds
+  1.63987|D|GFXInit::init|GFX Init:
+  1.65211|D|_GFXInitReportAdapters| Direct 3D (version 11) device found
+  1.65213|D|_GFXInitReportAdapters|   Null device found
+  1.65278|D|ModuleManager::initializeSystem|... all modules loaded in 0.289257 seconds
+  1.65279|D|Platform::init|Initializing platform...
+  1.68425|D|DirectInputManager::enumerateDevices| *** Input devices start ***
+  1.68492|D|readXInputCache|Couldn't read XInput cache file at cache.0.13.0.0/xinputcache.txt
+  1.68682|D|isXInputDevice|Discovering new input controllers...
+  1.68707|D|readXInputCache|Couldn't read XInput cache file at cache.0.13.0.0/xinputcache.txt
+  1.68711|D|askWMI|Detecting WMI devices...
+  2.04243|D|askWMI|Added new 'D' device to XInput filter: 0x0a5c5800 ('Leitor de Cartão Inteligente Usbccid da Microsoft (WUDF)')
+  2.04383|D|askWMI|Added new 'D' device to XInput filter: 0x05ca181c ('Integrated Webcam')
+  2.04518|D|askWMI|Added new 'D' device to XInput filter: 0x00003825 ('Dispositivo de Entrada USB')
+  2.04521|D|askWMI|Added new 'D' device to XInput filter: 0x413c8187 ('Generic Bluetooth Adapter')
+  2.04525|D|askWMI|Added new 'D' device to XInput filter: 0x413c8185 ('Dell Wireless 5620 (EV-DO-HSPA) Mobile Broadband Mini-Card')
+  2.04764|D|askWMI|Added new 'D' device to XInput filter: 0x80870024 ('Generic USB Hub')
+  2.05472|D|askWMI|Stopped detecting WMI devices in 0.368s (read:0.248ms, known:0.009ms, init:353.2ms, detected:12.91ms, freed:0.610ms, written:0.812ms)
+  2.05475|D|isXInputDevice|Added unknown device to XInput filter: 0x2b606f1d
+  2.05582|D|DirectInputDevice::create|Mouse [instance: Mouse] detected, created as mouse0 (asynchronous)
+  2.05586|D|DirectInputDevice::create| - devtype 0x112
+  2.05588|D|DirectInputDevice::create| - A mouse or mouse-like device (such as a trackball)
+  2.05590|D|DirectInputDevice::create| + 3 axes
+  2.05592|D|DirectInputDevice::create| + 3 buttons
+  2.05639|D|DirectInputDevice::create|created device 'mouse0', took 0.001s: create:0.016ms, caps:0.628ms, txts:0.153ms, enum:0.033ms, fmt:0.355ms, buff:0.005ms, axis:0.001ms, leds:0.003ms
+  2.05648|D|isXInputDevice|Discovering new input controllers...
+  2.05664|D|askWMI|Detecting WMI devices...
+  2.20281|D|askWMI|Stopped detecting WMI devices in 0.146s (read:0.124ms, known:0.001ms, init:132.8ms, detected:12.22ms, freed:0.538ms, written:0.547ms)
+  2.20283|D|isXInputDevice|Added unknown device to XInput filter: 0x2b616f1d
+  2.20322|D|DirectInputDevice::create|Teclado [instance: Teclado] detected, created as keyboard0 (asynchronous)
+  2.20325|D|DirectInputDevice::create| - devtype 0x413
+  2.20327|D|DirectInputDevice::create| - Keyboard or keyboard-like:
+  2.20329|D|DirectInputDevice::create|  - IBM PC Enhanced 101/102-key or Microsoft Natural keyboard.
+  2.20331|D|DirectInputDevice::create| + 128 buttons
+  2.20409|D|DirectInputDevice::create|created device 'keyboard0', took 0.001s: create:0.032ms, caps:0.001ms, txts:0.121ms, enum:0.695ms, fmt:0.040ms, buff:0.000ms, axis:0.000ms, leds:0.000ms
+  2.20420|D|DirectInputManager::enumerateDevices| *** Input devices end ***
+  2.20676|D|DirectInputDevice::acquire|mouse0 acquired.
+  2.20685|D|DirectInputDevice::acquire|keyboard0 acquired.
+  2.20802|D|Platform::init|       Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz GenuineIntel x64
+  2.20815|D|Platform::init|Microsoft Windows 10 (v10.0) (build 18363), 64-bit
+  2.20823|D|Platform::init|Physical memory: 3.88 GB
+  2.20825|D|Platform::init|Battery: online
+  2.20829|D|Platform::init|Process Priority: High (0x80)
+  2.21459|D|TS|command line args:
+  2.21463|D|TS| - 0 = C:\Users\ez1016\Downloads\BeamNG.drive\Bin64\BeamNG.drive.x64.exe
+  2.26277|D|tryloadLanguage|unable to load language pt-BR: FAILED
+  2.26280|W|reloadLanguages|could not load any language, falling back to US English
+  2.26407|D|GFXInit::createDevice|Attempting to create GFX device 0: Microsoft Basic Render Driver (D3D11) [with output \\.\DISPLAY1]
+  2.26410|D|GFXInit::createDevice|shader model: 5.0 , available video modes: 4
+  2.26415|D|GFXInit::createDevice|Device created, setting adapter and enumerating modes
+  2.27131|D|Win32Window::setVideoMode|AntialiasLevel: 4,BitDepth: 32,FullScreen: 0, RefreshRate: 64, Resolution: 1366x768, wideScreen: 0
+  2.28307|D|Win32Window::setSize|   moving window to: 0,0 / 1366,768
+  2.30629|D|GFXD3D11Device::init|Hardware occlusion query detected: Yes
+  2.30722|D|GFXCardProfiler::init|D3D11 -  (Microsoft Basic Render Driver) [0 MB] ver 
+  2.30724|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'maxTextureWidth' to 8192.
+  2.30727|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'maxTextureHeight' to 8192.
+  2.30730|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'maxTextureSize' to 8192.
+  2.30732|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'autoMipMapLevel' to 1.
+  2.30735|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'lerpDetailBlend' to 1.
+  2.30738|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'fourStageDetailBlend' to 1.
+  2.31030|D|GFXD3D11Device::init|GFXDevice 11 - SM 5.000000
+  2.31294|D|GFXD3D11WindowTarget::init|setting video mode: Width 1350, Height 729, Format 1, Windowed 1350
+  2.37625|D|SFXSystem::createDevice|Using default audio device: Alto-falantes (2- High Definition Audio Device)
+  2.44536|D|SFXSystem::createDevice|SFXSystem::createDevice - created FMOD device 'Alto-falantes (2- High Definition Audio Device)'
+  2.44540|D|SFXSystem::createDevice|   CAPS_VoiceManagement
+  2.44700|D|TS|   Provider: FMOD
+  2.44705|D|TS|   Hardware: No
+  2.44709|D|TS|   Buffers: 32
+  2.64005|D|TS|HDR FORMAT: GFXFormatR16G16B16A16F
+  2.68217|D|TS|% - PostFX Manager - Executing scripts/postfx/default.postfxpreset.cs
+  2.68273|D|TS|% - PostFX Manager - Applying from preset
+  2.68280|D|TS|% - PostFX Manager - PostFX enabled
+  2.71325|D|TS|Attempting to set resolution to "1350 729 false 32 64 4"
+  2.71331|D|TS|Accepted Mode: 1350 729 false 32 64 4
+  2.72826|D|TS|% - PostFX Manager - Executing scripts/postfx/lowest.postfxpreset.cs
+  2.72866|D|TS|% - PostFX Manager - Applying from preset
+  2.72872|D|TS|% - PostFX Manager - PostFX enabled
+  2.72876|E|TS|Unable to detect available video memory. Applying 'Normal' quality.
+  2.74021|W|ColladaErrorHandler::handleWarning|core/art/shapes/spawn_arrow.DAE - Collada Shape warning: The DOM was unable to create an attribute xmlns:xsi = http://www.w3.org/2001/XMLSchema-instance at line -1.
+Probably a schema violation.
+
+  3.23395|D|StandardMainLoop::doMainLoop|Started up in 3.23 seconds...
+  3.31840|D|GELua.bindings|Registered new action map: ReplayPlaybackActionMap
+  3.31881|D|GELua.bindings|Registered new action map: ExplorationGeneralActionMap
+  3.42644|D|SFXFMODProject::acquire|SFXFMODProject: Opened project 'art/sound/FMOD/Desktop/Main.bank' in 0.098480 seconds.
+  3.59306|D|SFXFMODProject::acquire|SFXFMODProject: Opened project 'art/sound/FMOD/Desktop/UI.bank' in 0.036728 seconds.
+  3.80787|D|SFXFMODProject::acquire|SFXFMODProject: Opened project 'art/sound/FMOD/Desktop/Vehicle.bank' in 0.131787 seconds.
+  3.99177|D|Win32Window::setVideoMode|AntialiasLevel: 0,BitDepth: 32,FullScreen: 1, RefreshRate: 64, Resolution: 1366x768, wideScreen: 0
+  3.99180|D|Win32Window::setVideoMode|Win32Window::setVideoMode - invoking curtain
+  4.00102|D|GFXD3D11WindowTarget::resetMode|setting video mode: Width 1366, Height 768, Format 0, Windowed 71
+  4.13439|D|tryloadLanguage|unable to load language pt-BR: FAILED
+  4.13444|W|reloadLanguages|could not load any language, falling back to US English
+  4.14152|D|SFXSystem::createDevice|Using default audio device: Alto-falantes (2- High Definition Audio Device)
+  5.30553|D|CEF|MainGEUI | Uncaught ReferenceError: HookManager is not defined
+  5.32217|D|CEF|MainGEUI | Uncaught ReferenceError: HookManager is not defined
+  5.32227|D|CEF|MainGEUI | Uncaught ReferenceError: HookManager is not defined
+  7.16937|D|GELua.gamestate|show main menu (true)
+  7.17714|D|GELua.gamestate|ui finished loading
+  7.20660|W|GELua.modmanager|failed to start up: unable to load persistency file: mods/db.json
+  7.60990|D|CEF.local://local/ui/lib/int/logger.js:70|MainGEUI | [Console] Expected AppLayout but didn't get one :-( 
+  9.25667|D|CEF.local://local/ui/lib/int/beamng-core.js:375|MainGEUI | invalid image data: imageurls = 
+ 16.01229|D|tryloadLanguage|unable to load language pt-BR: FAILED
+ 16.01240|W|reloadLanguages|could not load any language, falling back to US English
+ 18.66150|I|_dispatch|Window closed
+ 18.66164|D|StandardMainLoop::shutdown|*** shutdown ***
+ 18.66254|D|TS|Exporting settings
+ 18.82487|D|GELua.onExit|Exiting
+ 18.82846|D|TS|Saving PostFX options
+ 18.82864|D|TS|% - PostFX Manager - All Settings applied to $PostFXManager::Settings
+ 18.83024|D|TS|% - PostFX Manager - Save complete. Preset saved at : settings/default.postfxpreset.cs
+ 20.50299|D|DirectInputDevice::unacquire|   mouse0 input device unacquired.
+ 20.50324|D|DirectInputDevice::unacquire|   keyboard0 input device unacquired.
